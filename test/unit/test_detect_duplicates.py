@@ -26,7 +26,7 @@ def test_no_DOI():
 
     @article{fernandez2017naming,
     title={Naming the pain in requirements engineering: Contemporary Problems, Causes, and Effects in Practice},
-    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{\`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
+    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
     journal={Empirical software engineering},
     volume={22},
     number={5},
@@ -38,7 +38,7 @@ def test_no_DOI():
 
     @article{mendez2017naming,
     title={Naming the pain in requirements engineering: Contemporary Problems, Causes, and Effects in Practice},
-    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{\`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
+    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
     journal={Empirical software engineering},
     volume={22},
     number={5},
@@ -64,7 +64,7 @@ def test_with_DOI():
 
     @article{fernandez2017naming,
     title={Naming the pain in requirements engineering: Contemporary Problems, Causes, and Effects in Practice},
-    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{\`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
+    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
     journal={Empirical software engineering},
     volume={22},
     number={5},
@@ -76,7 +76,7 @@ def test_with_DOI():
 
     @article{mendez2017naming,
     title={Naming the pain in requirements engineering: Contemporary Problems, Causes, and Effects in Practice},
-    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{\`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
+    author={M{e}ndez Fern{a}ndez, Daniel and Wagner, Stefan and Kalinowski, Marcos and Felderer, Michael and Mafra, Priscilla and Vetr{`o}, Antonio and Conte, Tayana and Christiansson, M-T and Greer, Des and Lassenius, Casper and others},
     journal={Empirical software engineering},
     volume={22},
     number={5},
@@ -89,5 +89,6 @@ def test_with_DOI():
     assert len(duplicates) == 1
 
 """
-1. I copied the articles from github and followed my test case desgin documentation. 
+I copied the articles from github and followed my test case desgin documentation.
+
 """
